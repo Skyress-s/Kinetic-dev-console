@@ -65,7 +65,7 @@ namespace DavidFDev.DevConsole
 #if USE_NEW_INPUT_SYSTEM
             InputKey.Backquote;
 #else
-            InputKey.BackQuote;
+            InputKey.H;
 #endif
         private const InputKey UpArrowKey = InputKey.UpArrow;
         private const InputKey DownArrowKey = InputKey.DownArrow;
@@ -671,6 +671,7 @@ namespace DavidFDev.DevConsole
             }
 
             InputText = string.Empty;
+            
         }
 
         /// <summary>
