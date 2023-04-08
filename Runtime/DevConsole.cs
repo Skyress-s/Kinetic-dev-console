@@ -359,6 +359,11 @@ namespace DavidFDev.DevConsole
             _console.EnableConsole();
         }
 
+        public static void DisplayDefualtKey() {
+            Debug.Log($"The default key is the tilde ({_console.ConsoleToggleKey})");
+            
+        }
+
         /// <summary>
         ///     Disable the dev console, making it inaccessible.
         /// </summary>
